@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AppName - Contact</title>
+
+    <!-- global styles -->
+    <link rel="stylesheet" href="./css/global.css">
+    <!-- individual styles -->
+    <link rel="stylesheet" href="./css/contact.css">
+</head>
+<body>
+
+<header>
+    <div class="wrap between">
+        <div class="home_produts">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+        </div>
+
+        <div class="app_name">
+            <a href="index.html">AppName</a>
+        </div>
+
+        <div class="contact_about">
+            <a href="contact.html">Contact</a>
+            <a href="about_us.html">AboutUs</a>
+        </div>
+    </div>
+</header>
+
+<section class="bgi">
+    <div>
+        <h1>Please complete the form</h1>
+        <form action="" method="post">
+            <input type="text" id="name_txt" class="text_short" placeholder="Jhon">
+            <input type="text" id="last_txt" class="text_short" placeholder="Smith Bosch">
+            <input type="email" id="email_text" class="text_big" placeholder="example@gmail.com">
+            <textarea id="text_area" placeholder="Type you message...."></textarea>
+        </form>
+        <input type="button" value="Send" class="send_btn" onclick="sendInfoContact()">
+    </div>
+</section>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>

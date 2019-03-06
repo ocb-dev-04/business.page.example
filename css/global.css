@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------- dimensions styles ---------------------------- */
+
+header{
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+header, footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrap{
+    width: 95%;
+    min-width: 650px;
+    max-width: 1000px;
+
+    /* border: 1px solid; */
+}
+
+.wrap_p{
+    width: 95%;
+    height: auto;
+    min-width: 200px;
+    max-width: 700px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ---------------------------- background-image styles ---------------------------- */
+
+.bgi{
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+
+/* ---------------------------- border's and padding's styles ---------------------------- */
+
+.orange{
+    border: 1px solid orange;
+}
+
+.gray{
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.r_50{
+    border-radius: 50%;
+}
+
+.r_10{
+    border-radius: 10px;
+}
+
+.r_7{
+    border-radius: 7px;
+}
+
+/* ---------------------------- input's and bottom's styles ---------------------------- */
+
+.link_on{
+    background-color: orange;
+    border-radius: 7px;
+    color:#fff;
+}
+
+.link_on:hover{
+    color: #000;
+}
+
+/* ---------------------------- header styles ---------------------------- */
+
+.app_name{
+    margin-top: 10px;
+}
+
+.app_name a{
+    text-decoration: none;
+    color: orange;
+    font-size: 2em;
+}
+
+.home_produts, .contact_about{
+    margin-top: 20px;
+    display: flex;
+}
+
+.home_produts a, .contact_about a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: 5px 10px;
+    margin: 0px 3px;
+}
+
+.home_produts a:hover{
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+
+.contact_about a:hover{
+    border-bottom: 2px solid orange;
+    color: orange;
+}
+
+footer{
+    background-color: orange;
+    padding: 5px;
+}
+
+footer p{
+    color: #fff;
+    display: block;
+    padding: 5px;
+}
+
+footer a{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    color: blue;
+}
